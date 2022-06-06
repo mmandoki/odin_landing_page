@@ -118,3 +118,31 @@ body {
     border-radius: 16px;
     border-color: #3882F6;
 }
+
+.middle-bottom {
+    background-color: #E5E7EB;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle-bottom .quote {
+    width: 780px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.middle-bottom .author {
+    width: 780px;
+    text-align: right;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+}
