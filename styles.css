@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -22,7 +22,7 @@ body {
 
 .header .nav .logo {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .header .nav .links {
@@ -55,7 +55,7 @@ body {
 .top .card .title {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     margin: 0px;
 }
 
@@ -93,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
     color: #1F2937;
 }
 
@@ -135,7 +135,7 @@ body {
     font-style: italic;
     font-size: 36px;
     margin: 0px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .middle-bottom .author {
@@ -145,4 +145,13 @@ body {
     font-weight: bold;
     font-size: 24px;
     margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
 }
